@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Your Name | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00adb5;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .project-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #222;
+            color: white;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #00adb5;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            background: #008b92;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Your Name</h1>
+        <p>Web Developer | Designer | Freelancer</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm a passionate web developer who loves building modern and responsive websites.
+            I specialize in front-end development and creating user-friendly experiences.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="projects">
+            <div class="project-card">
+                <h3>Project One</h3>
+                <p>A responsive business website built using HTML and CSS.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Project Two</h3>
+                <p>A personal blog layout designed for readability and performance.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Project Three</h3>
+                <p>A landing page optimized for conversions and marketing.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: yourname@email.com</p>
+        <p>Phone: +123 456 7890</p>
+        <a href="mailto:yourname@email.com" class="btn">Send Email</a>
+    </section>
+
+    <footer>
+        <p>© 2026 Your Name. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
